@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "830551386201",
+    "firebase_url": "https://pythontrading-99511-default-rtdb.firebaseio.com",
+    "project_id": "pythontrading-99511",
+    "storage_bucket": "pythontrading-99511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:830551386201:android:394425306c8f7e21a46948",
+        "android_client_info": {
+          "package_name": "com.zgapplications.robinhoodtrading"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "830551386201-2hbjbgd0magce116dc06792ur6oau6f5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zgapplications.robinhoodtrading",
+            "certificate_hash": "5de2535b49f974bc847d5c0cea1f114d02eaff42"
+          }
+        },
+        {
+          "client_id": "830551386201-bb0pfk9kibikglmshmevm1kqgatgkrgf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLl7iUr-na-rHSL2eBg7h8sOLQc2ta2v0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "830551386201-bb0pfk9kibikglmshmevm1kqgatgkrgf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

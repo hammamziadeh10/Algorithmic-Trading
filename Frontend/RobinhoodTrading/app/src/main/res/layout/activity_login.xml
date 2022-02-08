@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="#000A00">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="Robinhood Bots."
+        android:textStyle="bold"
+        android:textColor="#519872"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="65dp"
+        android:fontFamily="monospace"
+        android:id="@+id/login_page_title_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Login and let us make you money!"
+        android:textSize="26sp"
+        android:textColor="#BEC5AD"
+        android:fontFamily="monospace"
+        android:layout_below="@id/login_page_title_text"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/login_info_container">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/editbox_background"
+            android:id="@+id/login_page_username_edit_text"
+            android:hint="Email or username"
+            android:textColor="#bdc1c6"
+            android:textColorHint="#7F808A"
+            android:paddingLeft="20dp"
+            android:textSize="17sp"
+            android:inputType="textEmailAddress"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/editbox_background"
+            android:layout_marginTop="15dp"
+            android:textColor="#bdc1c6"
+            android:textColorHint="#7F808A"
+            android:hint="Password"
+            android:textSize="17sp"
+            android:paddingLeft="20dp"
+            android:layout_below="@id/login_page_username_edit_text"
+            android:inputType="textPassword"
+            android:id="@+id/login_page_password_edit_text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Incorrect Login Info"
+            android:layout_below="@id/login_page_password_edit_text"
+            android:layout_marginBottom="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:fontFamily="monospace"
+            android:textColor="#e53935"
+            android:id="@+id/incorrect_view"
+            android:visibility="invisible"
+            />
+
+
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="By signing in you agree with our Terms &amp; Conditions"
+        android:layout_above="@id/sign_in_button"
+        android:textAlignment="center"
+        android:layout_marginBottom="15dp"
+        android:textColor="#7F808A"
+        android:textSize="12.5sp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="80dp"
+        android:text="Sign In"
+        android:textColor="#000A00"
+        android:textStyle="bold"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:background="@drawable/sign_in_background"
+        android:layout_marginBottom="30dp"
+        android:id="@+id/sign_in_button"
+        android:onClick="authenticate"
+        />
+
+</RelativeLayout>

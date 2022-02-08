@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#000A00"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hello "
+            android:textSize="25sp"
+            android:textColor="#BEC5AD"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:id="@+id/home_page_name_field"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account# : "
+            android:textSize="20sp"
+            android:textColor="#519872"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:id="@+id/home_page_account_num_field"
+            android:layout_below="@id/home_page_name_field"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="#BEC5AD"
+        android:fontFamily="monospace"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:id="@+id/countdown_field"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:weightSum="5"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        android:id="@+id/tickers_holder">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#BEC5AD"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:id="@+id/ticker_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/bought_at_1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/current_price_1"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#BEC5AD"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:id="@+id/ticker_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/bought_at_2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/current_price_2"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#BEC5AD"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:id="@+id/ticker_3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/bought_at_3"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/current_price_3"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#BEC5AD"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:id="@+id/ticker_4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/bought_at_4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/current_price_4"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text=""
+                android:textColor="#BEC5AD"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:layout_marginLeft="25dp"
+                android:fontFamily="monospace"
+                android:textSize="18sp"
+                android:id="@+id/ticker_5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/bought_at_5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="35dp"
+                android:text=""
+                android:fontFamily="sans-serif-black"
+                android:textSize="19sp"
+                android:textColor="#BEC5AD"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/current_price_5"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/divider"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#BEC5AD"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="35dp"
+        android:layout_gravity="right"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:fontFamily="sans-serif-black"
+        android:textSize="19sp"
+        android:textColor="#BEC5AD"
+        android:gravity="right"
+        android:layout_marginBottom="5dp"
+        android:id="@+id/total_field"/>
+
+
+
+
+    
+
+</LinearLayout>
