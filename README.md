@@ -36,7 +36,7 @@ Created an automatic Trading algorithm that....
 <img src="gitImages/python.svg?raw=true" align="left" width="50" >
 <img src="gitImages/google-cloud.svg?raw=true" align="left" width="50" >
 <img src="gitImages/firebase.svg?raw=true" align="left" width="50" >
-<img src="gitImages/android-icon.svg?raw=true" align="left">
+<img src="gitImages/android-icon.svg?raw=true" width="50">
 
 
 <!-- DESIGN -->
