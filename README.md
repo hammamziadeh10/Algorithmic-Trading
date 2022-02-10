@@ -32,13 +32,16 @@ An Algorithmic Trading Program that momentum and that....
 ## Details
 Created an automatic Trading algorithm that....
 
-<img src="gitImgs/mongodb.svg?raw=true" align="left" width="50" >
-<img src="gitImgs/python.svg?raw=true" width="50" >
+<img src="gitImages/java.svg?raw=true" align="left" width="50" >
+<img src="gitImages/python.svg?raw=true" width="50" >
+<img src="gitImages/google-cloud.svg?raw=true" width="50" >
+<img src="gitImages/firebase.svg?raw=true" width="50" >
+<img src="gitImages/android-icon.svg?raw=true" width="50" >
 
 
 <!-- DESIGN -->
 ## Design
-![Website Design](gitImgs/Design.png?raw=true "Design")
+![Website Design](gitImages/Design.png?raw=true "Design")
 <!-- CONTRIBUTING -->
 ## Contributing
 
