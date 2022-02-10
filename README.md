@@ -24,9 +24,8 @@ An Algorithmic Trading Program that momentum and that....
 ## Table of Contents
 
 * [Project - Details](#details)
-  * [Backend](#frontend)
-  * [Frontend](#backend)
-* [Design](#design)
+  * [Backend](#backend)
+  * [Frontend](#frontend)
 * [Contributing](#contributing)
 * [Contact](#contact)
 
@@ -41,9 +40,12 @@ Created an automatic Trading algorithm that....
 <img src="gitImages/android-icon.svg?raw=true" height="50">
 
 
-<!-- DESIGN -->
-## Design
-![Website Design](gitImages/Design.png?raw=true "Design")
+<!-- Backend -->
+## Backend
+
+<!-- Frontend -->
+## Frontend
+
 <!-- CONTRIBUTING -->
 ## Contributing
 
