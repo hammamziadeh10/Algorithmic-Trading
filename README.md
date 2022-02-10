@@ -23,7 +23,9 @@ An Algorithmic Trading Program that momentum and that....
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Details](#details)
+* [Project - Details](#details)
+  * [Backend](#frontend)
+  * [Frontend](#backend)
 * [Design](#design)
 * [Contributing](#contributing)
 * [Contact](#contact)
