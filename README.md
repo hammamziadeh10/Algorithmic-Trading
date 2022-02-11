@@ -23,28 +23,19 @@ An Algorithmic Trading Program that momentum and that....
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
 
-* [Project - Details](#details)
-  * [Backend](#backend)
-  * [Frontend](#frontend)
+* [Details](#details)
 * [Contributing](#contributing)
 * [Contact](#contact)
 
 <!-- DESIGN -->
 ## Details
-An algorithmic trading program that analyzes the best stocks to buy using the Momentum strategy. The Ken Frenchs approach is used; thus the past year - except the last month- is analyzed. Stock data is web scraped (using Pandas Datareader) from Yahoo Finance; Pandas, Numpy are both used for the analysis. Finally the Robinhood private-api is used to automatically buy the stocks and sell after 30 days. The time and stock prices are both sent to a Firebase realtime database. The program is hosted on a google cloud server. Bash CLI: tmux and vim are used to edit and run the script. Hence a realtime connection is established between the python program and Android Frontend that I created to track process on the go.
+An algorithmic trading program that analyzes Dow Jones S&P 500 for the best stocks to buy using the Momentum strategy. Specifically, The Ken Frenchs approach is used; thus the past year - except the last month- is analyzed. Stock data is web scraped (using Pandas Datareader) from Yahoo Finance; Pandas, Numpy are both used for the analysis. Finally the Robinhood private-api is used to automatically buy the stocks and sell after 30 days. The program is hosted on a google cloud server. The time and stock prices are both sent to a Firebase realtime database.  Hence a realtime connection is established between the python program and Android Frontend that I created to track process on the go.
 
 <img src="gitImages/java.svg?raw=true" align="left" height="50" >
 <img src="gitImages/python.svg?raw=true" align="left" height="50" >
 <img src="gitImages/google-cloud.svg?raw=true" align="left" height="50" >
 <img src="gitImages/firebase.svg?raw=true" align="left" height="50" >
 <img src="gitImages/android-icon.svg?raw=true" height="50">
-
-
-<!-- Backend -->
-## Backend
-
-<!-- Frontend -->
-## Frontend
 
 <!-- CONTRIBUTING -->
 ## Contributing
