@@ -7,7 +7,7 @@
   <h3 align="center">Algorithmic Trading - Momentum strategy, Python & Java</h3>
 
   <p align="center">
-An Algorithmic Trading program that analyzes S&P 500 using Momentum. <br /> Automatically buys stocks. Connects to Frontend to keep track of progress.
+An Algorithmic Trading program that analyzes S&P 500 using Momentum. <br /> Automatically buys stocks. Connects to Frontend to keep track of progress. <br />
     <br />
     <a href="https://github.com/hammamziadeh10/Algorithmic-Trading"><strong>Explore the docs »</strong></a>
     <br />
